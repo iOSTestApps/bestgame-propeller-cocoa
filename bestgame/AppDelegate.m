@@ -16,6 +16,7 @@
 // #import "TestFlight.h"
 
 #import "PropellerSDK.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 // Uncomment if you want to use UserVoice
 //NSString * const kUserVoiceSite = @"youruservoicesite.uservoice.com";
@@ -77,6 +78,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup:self];
+    
     CCLOG(@"application:didFinishLaunchingWithOptions:");
     
     // check if the app has been launched due to a local notification
@@ -262,6 +265,16 @@
     {
         // this is not a Grantoo notification, handle as necessary
     }
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    if ([BuddyBuildSDK handleOpenURL:url]) {
+        return YES;
+    }
+    return NO;
 }
 
 @end
