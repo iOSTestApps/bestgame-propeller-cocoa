@@ -2029,7 +2029,7 @@
 				HEADER_SEARCH_PATHS = "\"bestgame/libs/kazmath/include\"";
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"bestgame/libs/kazmath/include\"";
 				INFOPLIST_FILE = bestgame/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/bestgame/libs/**";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
@@ -2062,7 +2062,7 @@
 				HEADER_SEARCH_PATHS = "\"bestgame/libs/kazmath/include\"";
 				"HEADER_SEARCH_PATHS[arch=*]" = "\"bestgame/libs/kazmath/include\"";
 				INFOPLIST_FILE = bestgame/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/bestgame/libs/**";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
