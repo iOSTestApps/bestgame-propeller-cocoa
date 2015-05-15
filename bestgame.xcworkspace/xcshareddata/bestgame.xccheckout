@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>38A0D8E4-FBD6-469B-A851-B5D6619099A4</string>
+	<string>7FA86A9B-7C88-4E03-8789-2ADCE8DEF171</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>bestgame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>87B16073B466D6C4759F3C70DA772B4ECC39A8E2</key>
 		<string>https://github.com/iOSTestApps/bestgame-propeller-cocoa.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>bestgame.xcodeproj/project.xcworkspace</string>
+	<string>bestgame.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>87B16073B466D6C4759F3C70DA772B4ECC39A8E2</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/iOSTestApps/bestgame-propeller-cocoa.git</string>
